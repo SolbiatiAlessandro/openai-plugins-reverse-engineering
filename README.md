@@ -6,7 +6,7 @@ Welcome to the **OpenAI Plugin Jailbreaks** repository! Here, you'll find a coll
 
 ## Contents 📂
 
-Explore the folders for [Jailbreak Prompts](jailbreak-prompt.txt) run on each official OpenAI plugin, containing plugin APIs description (from model conversations) and an **approximate** openapi.yaml files.
+In each plugin folders we stored the output of the [Jailbreak Prompts](jailbreak-prompt.txt) run on each of the following official third-party OpenAI plugins, plus plugin backend respones when available.
 
 ![](/demo1.png)
 
