@@ -1,10 +1,14 @@
 # OpenAI Plugin Jailbreaks 🚀🔓
 
+![](/demo2.png)
+
 Welcome to the **OpenAI Plugin Jailbreaks** repository! Here, you'll find a collection of conversations and OpenAPI specifications for various plugins for OpenAI's GPT models. This repository is a fun and creative exploration into potential interactions with AI-powered plugins.
 
 ## Contents 📂
 
 Explore the folders for [Jailbreak Prompts](jailbreak-prompt.txt) run on each official OpenAI plugin, containing plugin APIs description (from model conversations) and an **approximate** openapi.yaml files.
+
+![](/demo1.png)
 
 ### Plugin Descriptions
 - 🎮 [Algorithma](algorithma): Life sim with real-world challenges.
