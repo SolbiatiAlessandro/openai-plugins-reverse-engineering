@@ -1,0 +1,128 @@
+openapi: 3.0.2
+info:
+  title: Tutory Plugin API
+  description: A tutoring system API designed to guide users through learning paths and track progress.
+  version: 1.0.0
+  servers:
+    - url: https://your-app-url.com
+paths:
+  /startConversation:
+    post:
+      summary: Start Conversation
+      description: Initiate a new tutoring session.
+      operationId: startConversation_post
+      responses:
+        "200":
+          description: Successful Response
+  /getContext:
+    get:
+      summary: Get Context
+      description: Retrieve the context of prior conversations when a student references a previous discussion.
+      operationId: getContext_get
+      responses:
+        "200":
+          description: Successful Response
+  /getLearningPath:
+    get:
+      summary: Get Learning Path
+      description: Retrieve a student's current learning path or curriculum.
+      operationId: getLearningPath_get
+      responses:
+        "200":
+          description: Successful Response
+  /addLearningPath:
+    post:
+      summary: Add Learning Path
+      description: Add a new learning path for a student, including the topic, duration, summary, and course content.
+      operationId: addLearningPath_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AddLearningPath"
+        required: true
+      responses:
+        "200":
+          description: Successful Response
+  /updateLearningPath:
+    patch:
+      summary: Update Learning Path
+      description: Update a student's progress in their learning path, marking lessons or days as completed.
+      operationId: updateLearningPath_patch
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateLearningPath"
+        required: true
+      responses:
+        "200":
+          description: Successful Response
+  /addNote:
+    post:
+      summary: Add Note
+      description: Add a note about the student's performance or progress at the end of a tutoring session.
+      operationId: addNote_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AddNote"
+        required: true
+      responses:
+        "200":
+          description: Successful Response
+components:
+  schemas:
+    AddNote:
+      title: Add Note
+      type: object
+      properties:
+        note:
+          title: Note
+          type: string
+    AddLearningPath:
+      title: Add Learning Path
+      type: object
+      properties:
+        topic:
+          title: Topic
+          type: string
+        duration:
+          title: Duration
+          type: integer
+        summary:
+          title: Summary
+          type: string
+        course:
+          title: Course
+          type: array
+          items:
+            $ref: "#/components/schemas/CourseItem"
+    UpdateLearningPath:
+      title: Update Learning Path
+      type: object
+      properties:
+        learningPath:
+          title: Learning Path
+          type: string
+        dayCompleted:
+          title: Day Completed
+          type: boolean
+        topic:
+          title: Topic
+          type: string
+    CourseItem:
+      title: Course Item
+      type: object
+      properties:
+        day:
+          title: Day
+          type: integer
+        goal:
+          title: Goal
+          type: string
+        completed:
+          title: Completed
+          type: boolean
+

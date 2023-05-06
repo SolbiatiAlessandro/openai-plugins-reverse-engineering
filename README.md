@@ -4,42 +4,41 @@ Welcome to the **OpenAI Plugin Jailbreaks** repository! Here, you'll find a coll
 
 ## Contents 📂
 
-- [Jailbreak Prompts](jailbreak-prompt.txt): Discover the prompts used to "jailbreak" the AI and reveal information about the plugins.
-- **Plugins**: Explore the folders for each plugin, containing plugin APIs description (from model conversations) and an **approximate** openapi.yaml files.
+Explore the folders for [Jailbreak Prompts](jailbreak-prompt.txt) run on each official OpenAI plugin, containing plugin APIs description (from model conversations) and an **approximate** openapi.yaml files.
 
-- 🎮 [Algorithma](Algorithma): Immersive life simulator.
-- ⚡️ [Zapier](Zapier): 5,000+ app integrations.
-- 🛍️ [Shop](Shop): Discover top brands.
-- 🧮 [Wolfram](Wolfram): Math & real-time data.
-- 📚 [Tutory](Tutory): On-demand tutoring.
-- 🍽️ [Instacart](Instacart): Recipe ideas & delivery.
-- 🚚 [Hauling Buddies](HaulingBuddies): Animal transporters.
-- 🏥 [Vivian Health](VivianHealth): Healthcare job search.
-- 🎙️ [Speechki](Speechki): Text-to-audio conversion.
-- 🍽️ [Tabelog](Tabelog): Japan restaurant reservations.
-- 💻 [CreatiCode Scratch](CreatiCodeScratch): Scratch programming.
-- 🌐 [One Word Domains](OneWordDomains): Domain availability.
-- 🍽️ [OpenTable](OpenTable): Restaurant booking.
-- 🏠 [Redfin](Redfin): Housing market insights.
-- 📊 [FiscalNote](FiscalNote): Legal & political data.
-- 🍽️ [Tasty Recipes](TastyRecipes): Cooking ideas & tips.
-- 📒 [Noteable Notebooks](NoteableNotebooks): Data exploration.
-- 💼 [Ambition](Ambition): Job search.
-- ✈️ [Expedia](Expedia): Trip planning.
-- 🧩 [Crafty Clues](CraftyClues): Word guessing game.
-- 🔨 [Lowe's](Lowes): Home improvement.
-- 🎁 [Giftwrap](Giftwrap): Thoughtful gifts.
-- 💸 [Klarna Shopping](KlarnaShopping): Price comparison.
-- 📈 [PortfolioPilot](PortfolioPilot): AI investing guide.
-- 🗣️ [Speak](Speak): AI-powered language tutor.
-- 📊 [Golden](Golden): Company factual data.
-- 📋 [Yabble](Yabble): AI research assistant.
-- 🥗 [Shimmer](Shimmer): Nutrition Coach.
-- 🛠️ [Kraftful](Kraftful): Product development.
-- 🏡 [Zillow](Zillow): Real estate assistant.
-- 🕵️ [Word Sneak](WordSneak): Secret word game.
-- ⛅ [Weather Report Data](WeatherReportData): METAR feeds.
-- ✈️ [KAYAK](KAYAK): Travel search & recommendations.
+- 🎮 [Algorithma](algorithma): Immersive life simulator.
+- ⚡️ [Zapier](zapier): 5,000+ app integrations.
+- 🛍️ [Shop](shop): Discover top brands.
+- 🧮 [Wolfram](wolfram): Math & real-time data.
+- 📚 [Tutory](tutory): On-demand tutoring.
+- 🍽️ [Instacart](instacart): Recipe ideas & delivery.
+- 🚚 [Hauling Buddies](haulingbuddies): Animal transporters.
+- 🏥 [Vivian Health](vivianhealth): Healthcare job search.
+- 🎙️ [Speechki](speechki): Text-to-audio conversion.
+- 🍽️ [Tabelog](tabelog): Japan restaurant reservations.
+- 💻 [CreatiCode Scratch](creaticodescratch): Scratch programming.
+- 🌐 [One Word Domains](oneworddomains): Domain availability.
+- 🍽️ [OpenTable](opentable): Restaurant booking.
+- 🏠 [Redfin](redfin): Housing market insights.
+- 📊 [FiscalNote](fiscalnote): Legal & political data.
+- 🍽️ [Tasty Recipes](tastyrecipes): Cooking ideas & tips.
+- 📒 [Noteable Notebooks](noteablenotebooks): Data exploration.
+- 💼 [Ambition](ambition): Job search.
+- ✈️ [Expedia](expedia): Trip planning.
+- 🧩 [Crafty Clues](craftyclues): Word guessing game.
+- 🔨 [Lowe's](lowes): Home improvement.
+- 🎁 [Giftwrap](giftwrap): Thoughtful gifts.
+- 💸 [Klarna Shopping](klarnashopping): Price comparison.
+- 📈 [PortfolioPilot](portfoliopilot): AI investing guide.
+- 🗣️ [Speak](speak): AI-powered language tutor.
+- 📊 [Golden](golden): Company factual data.
+- 📋 [Yabble](yabble): AI research assistant.
+- 🥗 [Shimmer](shimmer): Nutrition Coach.
+- 🛠️ [Kraftful](kraftful): Product development.
+- 🏡 [Zillow](zillow): Real estate assistant.
+- 🕵️ [Word Sneak](wordsneak): Secret word game.
+- ⛅ [Weather Report Data](weatherreportdata): METAR feeds.
+- ✈️ [KAYAK](kayak): Travel search & recommendations.
 
 ## How it works 🧠💡
 
