@@ -1,4 +1,4 @@
-# OpenAI Plugin Jailbreaks 🚀🔓
+# OpenAI Plugins Jailbreaks 🚀🔓
 
 ![](/demo2.png)
 
@@ -10,7 +10,8 @@ Explore the folders for [Jailbreak Prompts](jailbreak-prompt.txt) run on each of
 
 ![](/demo1.png)
 
-### Plugin Descriptions
+### Jailebraked Plugins
+
 - 🎮 [Algorithma](algorithma): Life sim with real-world challenges.
 - 💻 [CreatiCode Scratch](creaticodescratch): Learn coding with Scratch.
 - ✈️ [KAYAK](kayak): Plan trips with expert recommendations.
