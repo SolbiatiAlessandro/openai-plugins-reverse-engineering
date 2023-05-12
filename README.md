@@ -1,8 +1,8 @@
-# OpenAI Plugins Jailbreaks 🚀🔓
+# OpenAI Plugins Reverse Engineering 🚀🔓
 
 ![](/demo2.png)
 
-Welcome to the **OpenAI Plugin Jailbreaks** repository! Here, you'll find a collection of conversations and OpenAPI specifications for various plugins for OpenAI's GPT models. This repository is a fun and creative exploration into potential interactions with AI-powered plugins.
+Welcome to the **OpenAI Plugin Reverse Engineering** repository! Here, you'll find a collection of conversations and OpenAPI specifications for various plugins for OpenAI's GPT models. This repository is a fun and creative exploration into potential interactions with AI-powered plugins.
 
 ## Contents 📂
 
@@ -12,6 +12,12 @@ In each plugin folders we stored the output of the [Jailbreak Prompts](jailbreak
 
 ### Jailebraked Plugins
 
+- ✍️ *PerfectPrompt* - prompt engineering!
+- 🔍 *AskYourPDF*
+- 📊 *DiagramIT* - make diagrams 
+- 📝 *ChatWithPDF* 
+- 🎓 *EdX* 
+- 📸 *Polarr* - Advanced photo editing tool
 - 🎮 [Algorithma](algorithma): Life sim with real-world challenges.
 - 💻 [CreatiCode Scratch](creaticodescratch): Learn coding with Scratch.
 - ✈️ [KAYAK](kayak): Plan trips with expert recommendations.
